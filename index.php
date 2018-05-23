@@ -38,8 +38,6 @@ table, th, td {
             
 <body>
 
-<script type="text/javascript" src="https://coinmedia.co/new_code_site82523.js"></script>
-
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/topnav.php';?>
 
@@ -49,7 +47,7 @@ table, th, td {
   <div class="column side">
     
 	<center>
-<iframe data-aa='886655' src='//ad.a-ads.com/886655?size=250x250' scrolling='no' style='width:250px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
+<iframe data-aa='917780' src='//ad.a-ads.com/917780?size=120x600' scrolling='no' style='width:120px; height:600px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
 
 		</center>
   </div>
@@ -111,16 +109,11 @@ table, th, td {
   <tr>
     <td><center><p><b><h2>Latest News!</h2></b></p></center>
 <center>
-<p>NEW SPACE CRYPTO GAME!!  <a href="http://starcoins.ws/r/432" target="_blank">Star Coins!!</a></p>
-<p><a href="https://cointiply.com/r/kO86" target="_blank">Cointiply!  Earn money and great referral program!</a></p>
-<p style="margin:0;"><h2>New Faucets and Auto Faucets on a </p><p><a href="http://findfreecrypto.com/" target="_blank">New Website!</a></h2></p><br>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/newspage.php';?>
-
-
+<p><a href="https://cointiply.com/r/7oB0" target="_blank">Cointiply!</a>  Earn money and great referral program!</p>
 
 <br><br><br>
-<a href="http://potcoinlotto.com/?ref=japakar" target="_blank"><img src="http://potcoinlotto.com/i/468x60-1.png"></a>
+<a href="http://potcoinlotto.com/?ref=broomez420" target="_blank"><img src="http://potcoinlotto.com/i/468x60-1.png"></a>
 </center>
 </td>
   </tr>
@@ -135,26 +128,6 @@ table, th, td {
   <div class="column side">
   
 <center>
-<iframe src="https://coinmedia.co/new_code_site96735.js" scrolling="no" frameborder="0" width="200px" height="230px"></iframe>     
-	</center>
-  </div>
-</div>
-
-
-<script type="text/javascript"><!--
-zone = "33";
-pl = "4092";
-url = "https://bitraffic.com";
-//--></script>
-<script type="text/javascript" src="https://bitraffic.com/show.js"></script>
-<br>
-<center>
-<p><i>Copyright 2017 &copy; Japakar.</i></p>
-</center>
-
-
-<!-- Bitcoadz.io - Ad Display Code -->
-<script data-cfasync="false" type="text/javascript" src="//www.bitcoadz.io/display/items.php?12916&766&300&250&4&0&0&8"></script>
-<!-- Bitcoadz.io - Ad Display Code -->
+<iframe data-aa='917780' src='//ad.a-ads.com/917780?size=120x600' scrolling='no' style='width:120px; height:600px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
 </body>
 </html>
