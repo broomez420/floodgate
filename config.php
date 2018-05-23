@@ -7,7 +7,7 @@
 
   /* Enable and disable currencies. */
   $cfg_BCH_enabled  = false;
-  $cfg_BLK_enabled  = true;
+  $cfg_BLK_enabled  = false;
   $cfg_BTC_enabled  = false;
   $cfg_BTX_enabled  = false;
   $cfg_DASH_enabled = false;
@@ -15,8 +15,8 @@
   $cfg_ETH_enabled  = false;
   $cfg_LTC_enabled  = false;
   $cfg_POT_enabled  = false;
-  $cfg_PPC_enabled  = true;
-  $cfg_XPM_enabled  = true;
+  $cfg_PPC_enabled  = false;
+  $cfg_XPM_enabled  = false;
 
   $cfg_BCH_amount  = intval((55 / 60) * $cfg_refresh_time);
   $cfg_BLK_amount  = intval((200 / 60) * $cfg_refresh_time);
@@ -41,7 +41,7 @@
   $cfg_BTC_api_key  = 'XXXREDACTEDXXXXXXXXX4d533ffd9bfc';
   $cfg_BTX_api_key  = 'XXXREDACTEDXXXXXXXXX4d533ffd9bfc';
   $cfg_DASH_api_key = 'XXXREDACTEDXXXXXXXXX4d533ffd9bfc';
-  $cfg_DOGE_api_key = 'XXXREDACTEDXXXXXXXXX7abd256ba6c8';
+  $cfg_DOGE_api_key = 'XXXREDACTEDXXXXXXXXX75a6a7c815ec';
   $cfg_ETH_api_key  = 'XXXREDACTEDXXXXXXXXX4d533ffd9bfc';
   $cfg_LTC_api_key  = 'XXXREDACTEDXXXXXXXXX4d533ffd9bfc';
   $cfg_POT_api_key  = 'XXXREDACTEDXXXXXXXXX4d533ffd9bfc';
@@ -62,20 +62,20 @@
   /* The default CAPTCHA is coinhive, and the default shortlink is eliwin;
    * you can change them, but you've got to rewrite captcha.lib.php or shortlink.lib.php yourself. */
 
-  $cfg_use_captcha = false; // Set this to false to disable the CAPTCHA
+  $cfg_use_captcha = true; // Set this to false to disable the CAPTCHA
   if ($cfg_use_captcha) {
-    $cfg_coinhive_captcha_site = '';
-    $cfg_coinhive_captcha_secret = '';
+    $cfg_coinhive_captcha_site = 'XXXREDACTEDXXXXXXXXX75a6a7c815ec';
+    $cfg_coinhive_captcha_secret = 'XXXREDACTEDXXXXXXXXX75a6a7c815ec';
   }
 
   $cfg_use_shortlink = false; // You can also use a shortlink
   if ($cfg_use_shortlink) {
     // You can change the shortlink provider in shortlink.lib.php
-    // eliwin is ref-only: https://elibtc.win/ref/sheshiresat
+    // eliwin is ref-only: https://elibtc.win/ref/broomez420
     $cfg_eliwin_key = 'XXXREDACTEDXXXXXXXXXXXXXXXXXX7bd1a9161f1';
 
-    // another good site that pays _very_ well (but doesn't have any captcha) is http://1ink.cc/?ref=16969
-    // https://adbilty.me/ref/sheshiresat --- the same as eliwin, but with popups and higher pay
+    // another good site that pays _very_ well (but doesn't have any captcha) is http://1ink.cc/?ref=45534
+    
   }
 
   $cfg_enable_nastyhosts = true; // Whether to check with nastyhosts on the claim page.
@@ -110,12 +110,12 @@
     */
   }
 
-  $cfg_fh_username = 'Japakar.com'; // Your FaucetHUB username.
-  $cfg_site_name = 'Auto Faucet 1'; // The faucet name.
-  $cfg_site_url = 'http://auto1.japakar.com'; // The URL of the faucet.
+  $cfg_fh_username = 'superdoggie.tk'; // Your FaucetHUB username.
+  $cfg_site_name = 'SuperDoggie Auto Faucet'; // The faucet name.
+  $cfg_site_url = 'http://AutoFaucet.superdoggie.tk'; // The URL of the faucet.
 
   /* Set this to the version of the faucet source you are using. (see http://semver.org)
    * If you change the source, be sure to add "+mod" (modified) to the version! */
-  $cfg__VERSION = '4.5.0';
-  //$cfg__VERSION = '4.5.0+.mod';
+  $cfg__VERSION = '4.6.1';
+  //$cfg__VERSION = '4.6.1+.mod';
 ?>
