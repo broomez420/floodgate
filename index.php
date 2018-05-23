@@ -21,17 +21,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title><?php echo $cfg_site_name; ?></title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<title><?php echo $cfg_site_name; ?></title>
  <?php include $_SERVER['DOCUMENT_ROOT'] . '/custom/head.php'; ?>
-</head>
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+</style>
+
+</head> 
+            
 <body>
-<header><?php include $_SERVER['DOCUMENT_ROOT'] . '/custom/navbar.php'; ?></header>
-<main>
+
+<script type="text/javascript" src="https://coinmedia.co/new_code_site82523.js"></script>
+
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/topnav.php';?>
+
+
+
+<div class="row">
+  <div class="column side">
+    
+	<center>
+<iframe data-aa='886655' src='//ad.a-ads.com/886655?size=250x250' scrolling='no' style='width:250px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
+
+		</center>
+  </div>
+  
+  
+  
+  
+  <div class="column middle">
+<center><table width="99%" bgcolor="#98AFC7"></center>
+  <tr>
+    <td><center><h2>Welcome</h2></center>
  <h1><?php echo $cfg_site_name; ?></h1>
- <p>Just enter your address below, select your currency, hit submit, and then leave the page open for tons of satoshi!</p>
- <p>There&#700;s no timers or CAPTCHAs<?php if ($cfg_use_captcha) echo ' (apart from the one on this page)'; ?>; this is one of the leakiest faucets out there!</p>
- <p>(This faucet requires your address to be linked to a <a href="http://faucethub.io/r/10082526">FaucetHUB account</a>)</p>
- <p>(If the payout rates seem low, just remember that you get out just as much as you put in, and this faucet is much less &ldquo;labor-intensive&rdquo; than most.)</p>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/autoheadline.php';?>
+
  <?php if (!empty($cfg_MOTD)) echo '<aside id="motd"><div style="min-width:40vw"><b>Announcements</b></div>' . $cfg_MOTD . '</aside>'; ?>
  <div style="padding-left: 1em">
   <form action="verify.php" method="post">
@@ -69,9 +101,60 @@
  </div>
  <p>Referral link: <code><?php echo htmlspecialchars($cfg_site_url, ENT_QUOTES|ENT_SUBSTITUTE|ENT|DISALLOWED|ENT_HTML5); ?>?r=<var>YOUR_ADDRESS</var>&amp;rc=<var>CURRENCY</var></code> (rotator owners, please append <code>&amp;rotator=YOUR_ROTATOR_NAME</code> to the URL)</p>
  <?php if ($cfg_enable_google_analytics) echo '<p>This site uses Google&nbsp;Analytics and cookies. It doesn&#700;t really matter, and the information collected is <em>completely</em> anonymous and stripped of any identifying information. Nobody cares anyway; the people who <em>do</em> care about your information don&#700;t tell you that they have it. The information collected here would be akin to glancing at your feet from across the street while holding a censor bar over your face, body, and skin.<br/>Nice shoes, by the way!</p>'; ?>
-</main>
-<footer>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/custom/ads_q.php'; ?>
-</footer>
+
+</td>
+  </tr>
+</table>  
+
+
+<center><table width="99%" bgcolor="#98AFC7"></center>
+  <tr>
+    <td><center><p><b><h2>Latest News!</h2></b></p></center>
+<center>
+<p>NEW SPACE CRYPTO GAME!!  <a href="http://starcoins.ws/r/432" target="_blank">Star Coins!!</a></p>
+<p><a href="https://cointiply.com/r/kO86" target="_blank">Cointiply!  Earn money and great referral program!</a></p>
+<p style="margin:0;"><h2>New Faucets and Auto Faucets on a </p><p><a href="http://findfreecrypto.com/" target="_blank">New Website!</a></h2></p><br>
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/newspage.php';?>
+
+
+
+<br><br><br>
+<a href="http://potcoinlotto.com/?ref=japakar" target="_blank"><img src="http://potcoinlotto.com/i/468x60-1.png"></a>
+</center>
+</td>
+  </tr>
+</table>
+
+
+  <br>
+  </div>
+  
+  
+  
+  <div class="column side">
+  
+<center>
+<iframe src="https://coinmedia.co/new_code_site96735.js" scrolling="no" frameborder="0" width="200px" height="230px"></iframe>     
+	</center>
+  </div>
+</div>
+
+
+<script type="text/javascript"><!--
+zone = "33";
+pl = "4092";
+url = "https://bitraffic.com";
+//--></script>
+<script type="text/javascript" src="https://bitraffic.com/show.js"></script>
+<br>
+<center>
+<p><i>Copyright 2017 &copy; Japakar.</i></p>
+</center>
+
+
+<!-- Bitcoadz.io - Ad Display Code -->
+<script data-cfasync="false" type="text/javascript" src="//www.bitcoadz.io/display/items.php?12916&766&300&250&4&0&0&8"></script>
+<!-- Bitcoadz.io - Ad Display Code -->
 </body>
 </html>

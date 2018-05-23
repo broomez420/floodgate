@@ -46,7 +46,7 @@
         http_response_code(400);
         require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/ban.php';
         ban_user('Invalid key');
-        die('Congragulations, you are banned!');
+        die('Cheating detected, Start over from main page!');
       }
     } else {
       http_response_code(400);
@@ -435,6 +435,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
 <title><?php echo $cfg_site_name; ?></title>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/custom/head.php'; ?>
 <?php
@@ -454,10 +457,51 @@
     }
   }
 ?>
-</head>
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+</style>
+
+</head> 
+            
 <body>
-<header><?php include $_SERVER['DOCUMENT_ROOT'] . '/custom/navbar.php'; ?></header>
-<main>
+
+<script type="text/javascript" src="https://coinmedia.co/new_code_site82523.js"></script>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/topnav.php';?>
+
+
+
+<div class="row">
+  <div class="column side">
+    
+	<center>
+
+
+	</center>
+  </div>
+  
+  
+  
+  
+  <div class="column middle">
+<center><table width="99%" bgcolor="#98AFC7"></center>
+  <tr>
+    <td><center><h2>Welcome</h2></center>
 <h1><?php echo $cfg_site_name; ?></h1>
 <?php
   if ($dryrun) {
@@ -557,8 +601,63 @@
 <hr/>
 <p><strong>Do not bookmark this page!</strong> Use <a href="<?php echo $cfg_site_url; ?>"><?php echo htmlspecialchars($cfg_site_url, ENT_QUOTES|ENT_SUBSTITUTE|ENT_DISALLOWED|ENT_HTML5); ?></a> instead. (If the claim URL changes and you visit this page directly, you might be mistaken for a bot and banned.)</p>
 <hr/>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/custom/iframetraffic.php'; ?>
-</main>
-<footer><?php include $_SERVER['DOCUMENT_ROOT'] . '/custom/ads.php'; ?></footer>
+
+
+</td>
+  </tr>
+</table>  
+
+
+<center><table width="99%" bgcolor="#98AFC7"></center>
+  <tr>
+    <td><center><p><b><h2>Latest News!</h2></b></p></center>
+<center>
+<p>NEW SPACE CRYPTO GAME!!  <a href="http://starcoins.ws/r/432" target="_blank">Star Coins!!</a></p>
+<p><a href="https://cointiply.com/r/kO86" target="_blank">Cointiply!  Earn money and great referral program!</a></p>
+<p style="margin:0;"><h2>New Faucets and Auto Faucets on a </p><p><a href="http://findfreecrypto.com/" target="_blank">New Website!</a></h2></p><br>
+<p>
+<a href="http://findfreecrypto.com/faucet/xpm/" target="_blank">XPM</a> -
+<a href="http://findfreecrypto.com/faucet/ppc/" target="_blank">PPC</a> -
+<a href="http://findfreecrypto.com/faucet/blk/" target="_blank">BLK</a> -
+<a href="http://findfreecrypto.com/faucet/doge/" target="_blank">DOGE</a> -
+<a href="http://findfreecrypto.com/faucet/dash/" target="_blank">DASH</a> -
+<a href="http://findfreecrypto.com/faucet/bch/" target="_blank">BCH</a> -
+<a href="http://findfreecrypto.com/faucet/ltc/" target="_blank">LTC</a> -
+<a href="http://findfreecrypto.com/faucet/btx/" target="_blank">BTX</a> -
+</p>
+<a href="https://coinraffles.com/?r=passiveearn" target="_blank">COINRAFFLES!!</a><br>
+<p><h2><a href="https://www.epay.com/?ref=755573" target="_blank">Epay</a></h2></p>
+<div class="adbit-display-ad" data-adspace-id="CFAC3D954B"></div>
+
+
+
+<br><br><br>
+<a href="http://potcoinlotto.com/?ref=japakar" target="_blank"><img src="http://potcoinlotto.com/i/468x60-1.png"></a>
+</center>
+</td>
+  </tr>
+</table>
+
+
+  <br>
+  </div>
+  
+  
+  
+  <div class="column side">
+  
+	<center>
+
+
+	</center>
+  </div>
+</div>
+
+
+<br>
+<center>
+<p><i>Copyright 2017 &copy; Japakar.</i></p>
+</center>
+
 </body>
 </html>
