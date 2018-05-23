@@ -1,7 +1,7 @@
 = Documentation
-:toc:
 
-=UPDATE
+
+== UPDATE
 works straight out the box
 ENJOY
 
@@ -17,9 +17,6 @@ ENJOY
 [horizontal]
 'custom/ads.php'::
 Included at the bottom of the claim page, for ads to be shown a ton of times.
-'custom/ads_q.php'::
-For &lsquo;quality&rsquo; ads &mdash; ads that shouldn&#700;t be shown on the automatic pages.
-If an advertiser says that auto-refreshers aren&#700;t allowed, put their ad in this file instead of 'ads.php'.
 'custom/claim_options.php'::
 Extra form elements to add to the entry form on 'index.php'.
 (Can be left empty.)
