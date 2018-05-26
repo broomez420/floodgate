@@ -20,6 +20,8 @@ Included at the bottom of the claim page, for ads to be shown a ton of times.
 'custom/claim_options.php'::
 Extra form elements to add to the entry form on 'index.php'.
 (Can be left empty.)
+'autoheadline.php'::
+edit the text on the home page.
 'custom/claim_options_process.php'::
 For options that affect payout amounts. Included by 'faucet.php'.
 (Can also be left empty.)
@@ -27,7 +29,7 @@ For options that affect payout amounts. Included by 'faucet.php'.
 Included in the &lt;head&gt; tag of every page, for anti-adblock and link:https://www.internetdefenseleague.org[IDL scripts], google analytics, etc.
 'custom/iframetraffic.php'::
 Put sponsored sites here; it is included in the middle of the claim page.
-'custom/navbar.php'::
+'topnav.php'::
 This file contains the navbar at the top of most of the faucet pages.
 You can add and remove links here.
 
