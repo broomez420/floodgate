@@ -611,28 +611,10 @@ table, th, td {
 <center><table width="99%" bgcolor="#98AFC7"></center>
   <tr>
     <td><center><p><b><h2>Latest News!</h2></b></p></center>
-<center>
-<p>NEW SPACE CRYPTO GAME!!  <a href="http://starcoins.ws/r/432" target="_blank">Star Coins!!</a></p>
-<p><a href="https://cointiply.com/r/kO86" target="_blank">Cointiply!  Earn money and great referral program!</a></p>
-<p style="margin:0;"><h2>New Faucets and Auto Faucets on a </p><p><a href="http://findfreecrypto.com/" target="_blank">New Website!</a></h2></p><br>
-<p>
-<a href="http://findfreecrypto.com/faucet/xpm/" target="_blank">XPM</a> -
-<a href="http://findfreecrypto.com/faucet/ppc/" target="_blank">PPC</a> -
-<a href="http://findfreecrypto.com/faucet/blk/" target="_blank">BLK</a> -
-<a href="http://findfreecrypto.com/faucet/doge/" target="_blank">DOGE</a> -
-<a href="http://findfreecrypto.com/faucet/dash/" target="_blank">DASH</a> -
-<a href="http://findfreecrypto.com/faucet/bch/" target="_blank">BCH</a> -
-<a href="http://findfreecrypto.com/faucet/ltc/" target="_blank">LTC</a> -
-<a href="http://findfreecrypto.com/faucet/btx/" target="_blank">BTX</a> -
-</p>
-<a href="https://coinraffles.com/?r=passiveearn" target="_blank">COINRAFFLES!!</a><br>
-<p><h2><a href="https://www.epay.com/?ref=755573" target="_blank">Epay</a></h2></p>
-<div class="adbit-display-ad" data-adspace-id="CFAC3D954B"></div>
-
 
 
 <br><br><br>
-<a href="http://potcoinlotto.com/?ref=japakar" target="_blank"><img src="http://potcoinlotto.com/i/468x60-1.png"></a>
+<a href="http://potcoinlotto.com/?ref=broomez420" target="_blank"><img src="http://potcoinlotto.com/i/468x60-1.png"></a>
 </center>
 </td>
   </tr>
@@ -656,7 +638,7 @@ table, th, td {
 
 <br>
 <center>
-<p><i>Copyright 2017 &copy; Japakar.</i></p>
+<p><i>Copyright 2017/2018 &copy; superdoggie.tk.</i></p>
 </center>
 
 </body>
